@@ -57,8 +57,8 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "Maniacs Eye",
         language: "english",
-        startupCap: 1, // 1-200
-        startupVolume: 10, // 0-100
+        startupCap: 10, // 1-200
+        startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
         chatLink: "https://rawgit.com/CronosBoL/basicBot/master/lang/en.json",
@@ -92,7 +92,7 @@
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
         motdEnabled: true,
-        motdInterval: 20,
+        motdInterval: 45,
         motd: "Welcome to the official BoL Plug.dj! Please note that all rules from the forums applies here as well. If you have any problems feel free to pm me via the forums.(cronos). English is the only spoken language allowed here!",
         filterChat: true,
         etaRestriction: false,
@@ -105,7 +105,7 @@
         website: "botoflegends.com",
         intervalMessages: [],
         messageInterval: 5,
-        songstats: true,
+        songstats: false,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
